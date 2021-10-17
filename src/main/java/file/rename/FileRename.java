@@ -11,6 +11,6 @@ public class FileRename {
             reader.print(process.getInput());
             reader.print(process.getError());
         } catch (IOException e) { }
-        System.out.println("Hello");
+        System.out.println("Good Morning");
     }
 }
