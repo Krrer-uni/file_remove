@@ -10,7 +10,7 @@ public class ResultReader {
         final BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String line;
         while((line = reader.readLine()) != null) {
-            System.out.println(line);
+            System.out.println(line + "abc");
         }
     }
 }

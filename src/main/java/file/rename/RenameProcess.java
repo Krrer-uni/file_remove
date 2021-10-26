@@ -3,7 +3,7 @@ package file.rename;
 import java.io.File;
 import java.io.IOException;
 
-public class RenameProcess {
+public class RenameProcess { //NOPMD
     public Process process;
 
     public void rename() throws IOException {

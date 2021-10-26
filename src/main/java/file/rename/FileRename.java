@@ -4,8 +4,8 @@ import java.io.*;
 
 public class FileRename {
     public static void main(final String[] args) {
-            RenameProcess process = new RenameProcess();
-            ResultReader reader = new ResultReader();
+            final RenameProcess process = new RenameProcess();
+            final ResultReader reader = new ResultReader();
         try {
             process.rename();
             reader.print(process.getInput());
